@@ -31,7 +31,7 @@ node bridgeOnHop.js
 
 ## 相关链接
 
-具体攻略可以看：[here](https://mirror.xyz/june023.eth/95W6kVB2bYmfsxusay13Jah_HNP6nBFZc5PnhKCGSRg)
+具体攻略可以看：[here](https://mirror.xyz/june023.eth/1kZknEDkUmlkDIk3vWya7r5U4QZ0C7nGLdqDffOQ0Ss)
 
 其他相关链接
 - 如何批量撸空头 - Arbitrum Odyssey： [here](https://mirror.xyz/june023.eth/RK8m0Vwy7lZZYa6vyylms4eazr1WnzOE8uBgHBcpoC8)
