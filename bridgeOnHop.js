@@ -5,22 +5,13 @@ import 'dotenv/config';
 import addresses from './addresses.json' assert {type: "json"};
 import sleep from './utils.js'
 
-// import { parseUnits, formatUnits } from 'ethers/lib/utils'
-// import { Wallet, providers } from 'ethers'
-
 // fixed varibales 
 const maxPriorityFeePerGas = ethers.utils.parseUnits("35", "gwei")
 const maxFeePerGas = ethers.utils.parseUnits("35", "gwei")
 const sourceChain = Chain.Polygon;
 const destinationChain = Chain.Arbitrum;
-
-// // get environment variables 
-// const privateKey = process.env.PRIVATE_KEY;
-// const INFURA_PROJECT_ID = process.env.INFURA_PROJECT_ID;
-
 // connect to web3 
 const provider = new ethers.providers.JsonRpcProvider('https://polygon-rpc.com')
-// const provider = new ethers.providers.JsonRpcProvider(`https://mainnet.infura.io/v3/${INFURA_PROJECT_ID}`)
 
 
 async function approveTokenSpending(bridge, token, transferAmount) {
