@@ -1,0 +1,12 @@
+[
+    {
+        "name": "old mac 1",
+        "address": "0x...",
+        "private_key": "0x..."
+    },
+    {
+        "name": "win 1",
+        "address": "0x...",
+        "private_key": "0x..."
+    }
+]

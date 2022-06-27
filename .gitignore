@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# local env files
+.env
+addresses.json
+
+# misc
+.DS_Store
+*.pem
+
+# test file
+test.js
+test_1inch.js
+test_hop.js
